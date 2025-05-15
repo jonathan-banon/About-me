@@ -65,9 +65,25 @@ export default function ExpPro() {
                         <p className='text-xl'>Gestion de projet en bureau d’étude </p>
                         <p className='text-xl'>Développement d’applications internes <br></br>(Python, Node-red, Docker)</p>
                     </div>
-
+                    <div className=' exp-container animate__animated' >
+                        <p className="text-2xl font-bold"> 09/24 - 10/24</p>
+                    </div>
+                    <div className=" exp-container animate__animated">
+                        <p className="text-2xl font-bold"> Symfony-Farm (Projet personnel)</p>
+                        <p className='text-xl'> Site de mise en vente d’animaux hébergé sur un VPS (Symfony/Vue.js/Apache)</p>
+                        <a href='https://jbanon.fr/'   target="_blank" className='text-xl underline hover:font-bold'>jbanon.fr</a>
+                    </div>
+                    <div className=' exp-container animate__animated' >
+                        <p className="text-2xl font-bold">03/2025 - En cours</p>
+                    </div>
                 </div>
                 <div className="flex flex-col items-center">
+                    <div className="circle "></div>
+                    <div className="line "></div>
+                    <div className="circle "></div>
+                    <div className="line "></div>
+                    <div className="circle "></div>
+                    <div className="line "></div>
                     <div className="circle "></div>
                     <div className="line "></div>
                     <div className="circle "></div>
@@ -108,7 +124,20 @@ export default function ExpPro() {
                         <p className='text-xl'>Déploiement et intégration continue <br></br> (Docker / Github Actions)</p>
                     </div>
                     <div className=' exp-container animate__animated' >
-                        <p className="text-2xl font-bold">03/23 - Actuellement en poste</p>
+                        <p className="text-2xl font-bold">03/23 - 08/24</p>
+                    </div>
+                    <div className=" exp-container animate__animated">
+                        <p className="text-2xl font-bold">About-me (Projet personnel)</p>
+                        <p className='text-xl'> CV interactif déployé sur Github-Pages (React) </p>
+                    </div>
+                    <div className=' exp-container animate__animated' >
+                        <p className="text-2xl font-bold">01/25 - 02/25</p>
+                    </div>
+                    <div className=" exp-container animate__animated">
+                        <p className="text-2xl font-bold"> Projet associatif FSC</p>
+                        <p className='text-xl'>Projet Symfony / React d’organisation de tournois</p>
+                        <p className='text-xl'>Gestion projet en méthodes agiles avec l’association FSC</p>
+                        <p className='text-xl'>Déploiement sur VPS (Apache) </p>
                     </div>
                 </div>
             </div>

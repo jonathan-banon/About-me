@@ -6,6 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { PiBoxingGloveBold } from "react-icons/pi";
 import { MdOutlineSportsMotorsports } from "react-icons/md";
+import { TfiWorld } from "react-icons/tfi";
 
 export default function SideBar() {
     return (
@@ -40,6 +41,12 @@ export default function SideBar() {
                             <FaLinkedin />
                         </IconContext.Provider>
                         <a className="hover:font-bold" href="https://www.linkedin.com/in/jonathan-banon/" target="_blank" rel="noreferrer">Linkedin</a>
+                    </div>
+                    <div className="logo-container">
+                        <IconContext.Provider value={{ size: '30px' }}>
+                            <TfiWorld />
+                        </IconContext.Provider>
+                        <a className="hover:font-bold" href="https:/jbanon.fr" target="_blank" rel="noreferrer">Family Farm </a>
                     </div>
                 </div>
             </div>
